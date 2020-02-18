@@ -37,7 +37,7 @@ const STORE = {
         question: "What does the Bible say about humans and sin?",
         options: [
             "All have sinned and fall short of the glory of God (ref Romans 3:23).",
-            "Without Jesus Christ, all people are dead in their trespasses and sins. (ref Ephesians 2:1).",
+            "Without Jesus Christ, all people are dead in their trespasses and sins. </br>(ref Ephesians 2:1).",
             "The wages of sin is death (ref Rom 6:23).",
             "All the above choices.",
         ],

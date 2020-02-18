@@ -1,4 +1,24 @@
-/*jobal work through the rest of this css*/
+/*jobal work through the rest of this css
+* {
+    box-sizing: border-box;
+}
+
+.rowOne {
+    max-width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.fluent {
+    text-align: center;
+}
+
+
+inserd @media screen for
+moble, table, and computer*/
+
+jobal work through the rest of this css
 * {
     box-sizing: border-box;
 }
@@ -22,6 +42,16 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
+}
+
+.rowOne::before,
+.rowOne::after {
+  display: table;
+  content: '';
+}
+
+.rowOne::after {
+  clear: both;
 }
 
 header h1 {
@@ -72,9 +102,13 @@ header h1 {
     margin-bottom: 0;
     border-radius:10px;
     padding: 10px 20px;
-    margin-left: 78px;
+    /*margin-left: 78px;*/
   }
   
+  .moveForward {
+    text-align: center;
+}
+
   fieldset {
     width:80%;
     padding: 25px;
@@ -103,6 +137,17 @@ header h1 {
   
   label {
     font-size:20px;
+    /*margin: 0 0 13px 0;*/
+    line-height: 1.6;
+    vertical-align: middle;
+    display: block;
+    margin-left: 30px;
+  }
+
+  input[type="radio"]{
+    /*vertical-align: bottom;*/
+    float: left;
+    margin-top: 8px;
   }
   
   .options span {
@@ -126,10 +171,10 @@ header h1 {
     color: white;
   }
   
-  .question-form button {
+  /*.question-form button {
     float:right;
     margin-right: 75px;
-  }
+  }*/
   
   button:hover:enabled,
   button:focus:enabled{

@@ -53,7 +53,7 @@ function startQuiz() {
       
   
         <div class="rowOne">
-          <div class="fluent">
+          <div class="moveForward">
             <button type = "submit" id="answer" tabindex="5">Submit</button>
             <button type = "button" id="next-question" tabindex="6"> Next >></button>
           </div>
@@ -80,12 +80,15 @@ function startQuiz() {
           
             <div class="rowOne">
               <div class="fluent">
-                <p>Remember to tell every person: </br>God loves you. </br>He died on the cross for your sin, </br>and He rose from the </br>grave on the third day. </br>If you turn from your sins, </br>trust in Him, and </br>confess Him as Lord, </br>then you will be saved. </br>Do you want to trust in Jesus today?</p>
+                <p>Remember to tell every person: </br>God loves you. He died on the cross 
+                for your sin, and He rose from the grave on the third day. If you turn from 
+                your sins, trust in Him, and confess Him as Lord, then you will be saved. 
+                Do you want to trust in Jesus today?</p>
               </div>
             </div>
 
             <div class="rowOne">
-              <div class="fluent">
+              <div class="moveForward">
                 <button type="button" id="restart"> Restart Quiz </button>
               </div>
             </div>
