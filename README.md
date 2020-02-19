@@ -17,7 +17,7 @@ The following requirements cover what the app must do, from the user's perspecti
 Technical Requirements:
 Your quiz app must:
     Render answer choices in a <form>.
-    se semantic HTML, along with CSS and jQuery.
+    Use semantic HTML, along with CSS and jQuery.
     Follow a11y best practices.
     Refer back to the checkpoints on accessibility and forms for help.
     Use responsive design.
