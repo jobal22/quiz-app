@@ -1,24 +1,3 @@
-/*jobal work through the rest of this css
-* {
-    box-sizing: border-box;
-}
-
-.rowOne {
-    max-width: 400px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-}
-
-.fluent {
-    text-align: center;
-}
-
-
-inserd @media screen for
-moble, table, and computer*/
-
-jobal work through the rest of this css
 * {
     box-sizing: border-box;
 }
@@ -36,6 +15,11 @@ header {
     color: white;
     margin-bottom: 40px;
   }
+
+main {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
 
 .rowOne {
     max-width: 1000px;
@@ -58,6 +42,7 @@ header h1 {
     line-height: 1;
     top: 24px;
     text-align: center;
+    font-size: 28px;
   }
 
   header .question-and-score {
@@ -77,16 +62,18 @@ header h1 {
   .question-and-score li {
     display: inline-block;
     padding:0 2%;
+    /* font-size: 20px; */
   }
 
  legend {
-      
     text-align: center;
+    font-weight: 700;
+    font-size: 20px;
   }
   
     div > p {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     }
 
   button {
@@ -110,18 +97,13 @@ header h1 {
 }
 
   fieldset {
-    width:80%;
+    width: 300px;
     padding: 25px;
     margin:0 auto;
     background:#ececec;
     border-radius: 13px;
   }
-  
-  legend {
-    font-weight: 700;
-    font-size: 26px;
-  }
-  
+    
   .question-form .question {
     margin-bottom: 20px;
     padding: 0 2%;
@@ -188,3 +170,17 @@ header h1 {
   button:disabled {
     opacity:0.5;
   }
+
+@media screen and (min-width: 400px) {
+  header h1 {
+    font-size: 38px;
+  }
+  fieldset {
+    width: 450px;
+    padding: 25px;
+    margin:0 auto;
+    background:#ececec;
+    border-radius: 13px;
+  }
+
+}
